@@ -38,14 +38,14 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  applicationName: 'zhangyu.dev',
+  applicationName: '克喵的个人主页',
   authors: {
-    name: 'zhangyu1818',
-    url: 'https://github.com/zhangyu1818',
+    name: '克喵爱吃卤面',
+    url: 'https://github.com/Kemeow815',
   },
-  creator: 'zhangyu1818',
+  creator: '克喵爱吃卤面',
   description:
-    'Dive into front-end development with a focus on React, cutting-edge frameworks, JavaScript, TypeScript, Swift, Animation and more',
+    '致力于分享资源和生活~',
   generator: 'Next.js',
   keywords: [
     'Front-end Development',
@@ -55,11 +55,15 @@ export const metadata: Metadata = {
     'CSS',
     'Animation',
     'Swift',
+    'blog',
+    '克喵爱吃卤面',
+    '克喵',
+    'resources',
   ],
-  publisher: 'zhangyu1818',
+  publisher: '克喵爱吃卤面',
   title: {
-    absolute: 'zhangyu.dev',
-    template: '%s | zhangyu.dev',
+    absolute: 'kemeow.cn',
+    template: '%s | kemeow.cn',
   },
   verification: {
     google: 'ULSANpODFw1TULe1QTOUFT8z8QXPVIA1MRTMQL7PAbw',
