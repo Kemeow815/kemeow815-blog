@@ -47,27 +47,27 @@ export default function Page() {
             <Dot className='cursor-not-allowed bg-green-500' />
           </span>
           <span className='text-center text-gray-400'>
-            kemiao@kmblog:~
+            kemiao@kmblog.icu:~
           </span>
           <span className='text-end text-gray-500'>⌥⌘1</span>
         </header>
         <div className='min-h-60 flex-1 overflow-y-auto p-2 text-sm text-gray-200 duration-300 animate-in fade-in'>
           <p className='mb-2'>Last login: {lastBuildTime} on vscode</p>
           <Typed>
-            <TypedText>whoami</TypedText>
+            <TypedText>who am i</TypedText>
             <TypedContent>
               <p>
                 Hi, I&apos;m <strong>Ke Miao</strong>, in Chinese my name is{' '}
-                <strong>克喵爱吃联盟</strong>.
+                <strong>克喵爱吃卤面</strong>.
               </p>
               <p>
                 I am a college student, started studying in Nanjing in <strong>2023</strong>, majoring in Automation Technology and Application, 
-                I started sharing resources because of the TG channel: Resource Sharing: ["Software | Website | Open Source"](https://t.me/txwl666),
+                I started sharing resources because of the TG channel: Resource Sharing: "<a href="https://t.me/txwl666">"Software | Website | Open Source"</a>.
                 I found many useful projects from there, and over time, I started sharing resources.
               </p>
               <p>
                 My sharing project is on {' '}
-                <code>[Github](https://github.com/Kemeow815/kemiaofx)</code>.
+                <code><a href="https://github.com/Kemeow815/kemiaofx">Github</a></code>.
               </p>
             </TypedContent>
             <TypedText afterDelay={1000}>ls</TypedText>
