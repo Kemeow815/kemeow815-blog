@@ -1,24 +1,23 @@
 import { Block } from '@/components/blocks/block'
 import { ExternalLink } from '@/components/external-link'
 
-export const Juejin = () => (
+export const Telegram = () => (
   <Block
     className='group flex items-center justify-center bg-gradient-to-b from-blue-200 to-white text-black dark:from-blue-300/80 dark:to-white/70'
     data-type='about'
   >
     <svg
       className='size-24 dark:grayscale-[20%] xl:size-32'
-      height='1em'
-      viewBox='0 0 38 38'
-      width='1em'
-      xmlns='http://www.w3.org/2000/svg'
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        d='M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z'
-        fill='#006CFF'
-        fillRule='evenodd'
+        d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394a.759.759 0 0 1-.6.3h-.006l.213-3.054 5.56-5.022c.24-.213-.054-.333-.373-.12l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z"
+        fill="#0088CC"
+        fillRule="evenodd"
       />
     </svg>
-    <ExternalLink href='https://t.me/kemiaofx_me' title='电报频道' />
+    <ExternalLink href='https://t.me/kemiaofx_me' title='Telegram' />
   </Block>
 )
