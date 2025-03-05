@@ -18,6 +18,11 @@ import tailwindCSSSvg from '@/images/logo/tailwind-css.svg'
 import typeScriptSvg from '@/images/logo/typescript.svg'
 import vueSvg from '@/images/logo/vue.svg'
 import webpackSvg from '@/images/logo/webpack.svg'
+import telegramSvg from '@/images/logo/telegram.svg'
+import githubSvg from '@/images/logo/github.svg'
+import nuxtSvg from '@/images/logo/nuxt.svg'
+import vitejsSvg from '@/images/logo/vitejs.svg'
+import hexoSvg from '@/images/logo/hexo.svg'
 
 const Galton = dynamic(() => import('./galton').then(module => module.Galton), {
   ssr: false,
@@ -40,6 +45,11 @@ const images: StaticImageData[] = [
   nestjsSvg,
   prismaSvg,
   graphqlSvg,
+  telegramSvg,
+  githubSvg,
+  nuxtSvg,
+  vitejsSvg,
+  hexoSvg,
 ]
 export const Skills = () => {
   return (
